@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BKK Menetrend</title>
+    <script src="popup.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/icon.png">
+
+</head>
+<body>
+    <div id="popupContainer"> 
+        <div id="header">
+            <div>
+                <p id="cim"><strong>Menetrend</strong></p>
+                <p id="alcim">Corvin krt. - Határ út</p>
+            </div>
+            <div id="i">
+                <img src="img/info.png" alt="">
+                <div id="tooltip">Valós idejű BKK menetrend a Corvin krt. - Határ út útvonalon. Listázza a 99-es és 194-es buszok, valamint a 42-es villamos indulásait.</div> 
+
+            </div>
+    
+        </div>
+         <!-- Loading animáció -->
+         <div id="loadingContainer">
+            <div class="loading-spinner"></div>
+        </div>
+    
+        <!-- Menetrendek megjelenítéséhez három különböző div -->
+        <div id="schedule194"></div>
+        <div id="schedule99"></div>
+        <div id="schedule42"></div>
+    </div>
+
+</body>
+</html>
